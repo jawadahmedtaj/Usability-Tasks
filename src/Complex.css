@@ -1,0 +1,57 @@
+.Complex {
+  width: 100%;
+  height: 100vh;
+}
+
+.Complex-Circle {
+  position: absolute;
+  text-align: center;
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  color: white;
+  background-color: green;
+}
+
+.Complex-Show {
+  cursor: pointer;
+  margin-left: -45px;
+  margin-top: -45px;
+  background-color: green;
+  border-radius: 25px;
+  border: 2px greenyellow solid;
+  color: white;
+  width: 200px;
+  height: 50px;
+  line-height: 25px;
+  text-decoration: none;
+  position: absolute;
+  padding: 10px;
+  top: 50%;
+  left: 50%;
+}
+
+.Complex-Details {
+  text-align: center;
+  margin: auto;
+}
+
+.Complex-Link {
+  cursor: pointer;
+  text-align: center;
+  margin-left: -45px;
+  margin-top: -45px;
+  background-color: green;
+  border-radius: 25px;
+  border: 2px greenyellow solid;
+  color: white;
+  width: 100px;
+  height: 25px;
+  line-height: 25px;
+  text-decoration: none;
+  position: absolute;
+  padding: 10px;
+  top: 50%;
+  left: 50%;
+}
