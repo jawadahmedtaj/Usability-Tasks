@@ -5,8 +5,12 @@ import "./Home.css";
 function App() {
   return (
     <div className="Home">
-      <Link to="/Simple">Simple Task</Link>
-      <Link to="/Complex">Complex Task</Link>
+      <Link className="Home-Link" to="/Simple">
+        Simple Task
+      </Link>
+      <Link className="Home-Link" to="/Complex">
+        Complex Task
+      </Link>
     </div>
   );
 }
